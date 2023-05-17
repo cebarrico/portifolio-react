@@ -78,12 +78,17 @@ export const UlStyle = styled.ul`
   }
 
   @media (max-width: 800px) {
-    display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow-x: scroll;
-    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    gap: 30px;
 
     li {
+      display: inline-block;
       flex: 0 0 auto;
       left: 0;
     }

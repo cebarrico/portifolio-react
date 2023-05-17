@@ -20,7 +20,7 @@ export const Header = () => {
           <a href="#knowledge">
             <span>⬡</span> conhecimento
           </a>
-          <a href="/projects">
+          <a href="#projects">
             <span>⬡</span> projetos
           </a>
           <a href="/contact">

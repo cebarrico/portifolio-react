@@ -1,4 +1,4 @@
-import { kwnoledgeData } from "data/data";
+import { kwnoledgeData } from "data/knowledgeData";
 
 export const KnowledgeList = () => {
   return (
